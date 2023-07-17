@@ -1,0 +1,63 @@
+body 
+{
+  padding: 0;
+  margin: 0;
+
+}
+
+h1
+{font:sans-serif;
+font-size:40px;
+text-align:center;
+}
+
+.sidebar
+{
+  height: 100%;
+  width:53%; 
+  position:fixed; 
+  z-index: 0; 
+  top: 0;
+  right: 0;
+  background-color:#9CB1C4;
+}
+
+.label
+{margin-top: 2%;
+display:block;
+font-size:150%;
+text-align:center;
+font-weight:bold;
+}
+input
+{font-size:80%;
+margin-bottom:10px;}
+
+.container
+{display:inline-block;
+margin-bottom:5px;
+position:relative;
+width:40%;
+height:40%;
+border: 5px solid black;
+margin-left:5%;
+margin-top: 5%;
+}
+h2
+{text-align: center;
+font-size:200%;}
+
+img
+{
+  width:100%;
+  height:100%;
+  background-size:cover;
+
+}
+img:hover
+{
+cursor:pointer;
+}
+
+#playagain
+{font-size:150%;}
